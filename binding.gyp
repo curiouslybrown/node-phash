@@ -13,7 +13,7 @@
         }]
       ],
       'link_settings': {
-        'libraries': ['-lpHash']
+        'libraries': ['-L/app/.apt/usr/lib']
       }
     }
   ]
