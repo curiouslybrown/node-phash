@@ -5,6 +5,7 @@
       'sources': [ 'phash.cpp' ],
       'cflags!': [ '-fno-exceptions' ],
       'cflags_cc!': [ '-fno-exceptions' ],
+      'include_dirs':['/app/.apt/usr/include'],
       'conditions': [
         ['OS=="mac"', {
           'xcode_settings': {
